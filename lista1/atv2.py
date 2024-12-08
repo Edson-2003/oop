@@ -10,6 +10,7 @@ def cumsum(l):
       for j in range(i):
         soma += l[j]
       l2.append(soma)
+    
   return l2
 
 print(cumsum(t))
