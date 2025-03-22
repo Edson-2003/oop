@@ -40,8 +40,7 @@ def simulacao(Equipe1:tuple, Equipe2:tuple) -> tuple:
     
   
   if(Equipe1[0].vida > 0.0):
-     return Equipe1
-  
+		 return Equipe1
   return Equipe2
      
 
@@ -65,5 +64,5 @@ print(type(r4))
 Lutadores = (r1, RoboLutador('rocky'))
 Medicos = (r2, RoboMedico('cassiano'))
 
-simulacao((Lutadores[0], Medicos[0]), (Lutadores[1], Medicos[1]))
+print(simulacao((Lutadores[0], Medicos[0]), (Lutadores[1], Medicos[1])))
 
